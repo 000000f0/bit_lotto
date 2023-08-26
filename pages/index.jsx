@@ -186,12 +186,15 @@ if(currentpagenumber === 1){
     backgroundSize: '10px 10px',
   }}
 >
+<center>
+
     <div
   className={`container ${isDarkMode ? 'darkMode' : ''}`}
   style={{
     border: isDarkMode ? '1px solid white' : '1px solid black',
     backgroundColor: isDarkMode ? 'black' : 'white',
     color: isDarkMode ? 'white' : 'black',
+    width:'90vw'
   }}
 >
 <div
@@ -299,7 +302,13 @@ if(currentpagenumber === 1){
                     </button>
                   </div>
                 </form>
-              </div><div
+              </div>
+              
+              
+              
+              
+              <center>
+              <div
                 style={{
                   backgroundColor: isDarkMode ? 'rgba(0, 0, 0, 0.5)' : 'rgba(255, 255, 255, 0.5)',
                   backgroundImage: isDarkMode
@@ -310,6 +319,7 @@ if(currentpagenumber === 1){
                   margin: '20px',
                   border: '1px solid ' + (!isDarkMode ? 'white' : 'black'),
                   borderRadius: '0px',
+                  width: '80vw'
                 }}
               >
 
@@ -332,7 +342,8 @@ if(currentpagenumber === 1){
                       </tr>
                     </tbody>
                   </table>
-                </div></>
+                </div>
+                </center></>
         ) : (
 
 
@@ -361,7 +372,7 @@ if(currentpagenumber === 1){
       backgroundColor: isDarkMode ? '#000' : '#fff',
       color: isDarkMode ? '#fff' : '#000',
       borderCollapse: 'collapse',
-      width: '70vw',
+      width: '80vw',
       border: '1px solid ' + (isDarkMode ? '#fff' : '#333'),
       marginTop: '20px'
     }}
@@ -430,7 +441,10 @@ if(currentpagenumber === 1){
 </center>
 
 
-<div
+<center>
+
+      {/* bit_lotto Information Section */}
+      <div
   style={{
     backgroundColor: isDarkMode ? 'rgba(0, 0, 0, 0.5)' : 'rgba(255, 255, 255, 0.5)',
     backgroundImage: isDarkMode
@@ -441,6 +455,7 @@ if(currentpagenumber === 1){
     margin: '20px',
     border: '1px solid ' + (isDarkMode ? 'white' : 'black'),
     borderRadius: '0px',
+    width: '80vw'
 
   }}
 >
@@ -465,82 +480,163 @@ if(currentpagenumber === 1){
     </tbody>
   </table>
 </div>
+</center><center>
 
-
-
+{/* bit_lotto Information Section */}
 <div
-  style={{
-    backgroundColor: isDarkMode ? 'rgba(0, 0, 0, 0.5)' : 'rgba(255, 255, 255, 0.5)',
-    backgroundImage: isDarkMode
-      ? 'radial-gradient(circle, #ffffff 0.5px, #000000 0.5px)'
-      : 'radial-gradient(circle, #000 0.5px, #fff 0.5px)',
-    backgroundSize: '20px 20px',
-    padding: '20px',
-    margin: '20px',
-    border: '1px solid ' + (isDarkMode ? 'white' : 'black'),
-    borderRadius: '0px',
+style={{
+backgroundColor: isDarkMode ? 'rgba(0, 0, 0, 0.5)' : 'rgba(255, 255, 255, 0.5)',
+backgroundImage: isDarkMode
+? 'radial-gradient(circle, #ffffff 0.5px, #000000 0.5px)'
+: 'radial-gradient(circle, #000 0.5px, #fff 0.5px)',
+backgroundSize: '20px 20px',
+padding: '20px',
+margin: '20px',
+border: '1px solid ' + (isDarkMode ? 'white' : 'black'),
+borderRadius: '0px',
+width: '80vw'
 
-  }}
+}}
 >
-  
-  <table style={{ width: '100%', borderCollapse: 'collapse' }}>
-    <tbody>
-      <tr>
-        <td
-          style={{
-            padding: '10px',
-            textAlign: 'left',
-            opacity: 1,
-            color: isDarkMode ? 'white' : 'black',
-          }}
-        >
-          <h2>About bit_lotto</h2>
-          <p>
-            Welcome to bit_lotto, your own crypto lottery! Participate for a chance to win big prizes using your tokens. Join the excitement and be part of the crypto lottery community.
-          </p>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+
+<table style={{ width: '100%', borderCollapse: 'collapse' }}>
+<tbody>
+<tr>
+  <td
+    style={{
+      padding: '10px',
+      textAlign: 'left',
+      opacity: 1,
+      color: isDarkMode ? 'white' : 'black',
+    }}
+  >
+    <h2>About bit_lotto</h2>
+    <p>
+      Welcome to bit_lotto, your own crypto lottery! Participate for a chance to win big prizes using your tokens. Join the excitement and be part of the crypto lottery community.
+    </p>
+  </td>
+</tr>
+</tbody>
+</table>
 </div>
+</center><center>
 
-
-
+{/* bit_lotto Information Section */}
 <div
-  style={{
-    backgroundColor: isDarkMode ? 'rgba(0, 0, 0, 0.5)' : 'rgba(255, 255, 255, 0.5)',
-    backgroundImage: isDarkMode
-      ? 'radial-gradient(circle, #ffffff 0.5px, #000000 0.5px)'
-      : 'radial-gradient(circle, #000 0.5px, #fff 0.5px)',
-    backgroundSize: '20px 20px',
-    padding: '20px',
-    margin: '20px',
-    border: '1px solid ' + (isDarkMode ? 'white' : 'black'),
-    borderRadius: '0px',
+style={{
+backgroundColor: isDarkMode ? 'rgba(0, 0, 0, 0.5)' : 'rgba(255, 255, 255, 0.5)',
+backgroundImage: isDarkMode
+? 'radial-gradient(circle, #ffffff 0.5px, #000000 0.5px)'
+: 'radial-gradient(circle, #000 0.5px, #fff 0.5px)',
+backgroundSize: '20px 20px',
+padding: '20px',
+margin: '20px',
+border: '1px solid ' + (isDarkMode ? 'white' : 'black'),
+borderRadius: '0px',
+width: '80vw'
 
-  }}
+}}
 >
-  
-  <table style={{ width: '100%', borderCollapse: 'collapse' }}>
-    <tbody>
-      <tr>
-        <td
-          style={{
-            padding: '10px',
-            textAlign: 'left',
-            opacity: 1,
-            color: isDarkMode ? 'white' : 'black',
-          }}
-        >
-          <h2>About bit_lotto</h2>
-          <p>
-            Welcome to bit_lotto, your own crypto lottery! Participate for a chance to win big prizes using your tokens. Join the excitement and be part of the crypto lottery community.
-          </p>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+
+<table style={{ width: '100%', borderCollapse: 'collapse' }}>
+<tbody>
+<tr>
+  <td
+    style={{
+      padding: '10px',
+      textAlign: 'left',
+      opacity: 1,
+      color: isDarkMode ? 'white' : 'black',
+    }}
+  >
+    <h2>About bit_lotto</h2>
+    <p>
+      Welcome to bit_lotto, your own crypto lottery! Participate for a chance to win big prizes using your tokens. Join the excitement and be part of the crypto lottery community.
+    </p>
+  </td>
+</tr>
+</tbody>
+</table>
 </div>
+</center><center>
+
+{/* bit_lotto Information Section */}
+<div
+style={{
+backgroundColor: isDarkMode ? 'rgba(0, 0, 0, 0.5)' : 'rgba(255, 255, 255, 0.5)',
+backgroundImage: isDarkMode
+? 'radial-gradient(circle, #ffffff 0.5px, #000000 0.5px)'
+: 'radial-gradient(circle, #000 0.5px, #fff 0.5px)',
+backgroundSize: '20px 20px',
+padding: '20px',
+margin: '20px',
+border: '1px solid ' + (isDarkMode ? 'white' : 'black'),
+borderRadius: '0px',
+width: '80vw'
+
+}}
+>
+
+<table style={{ width: '100%', borderCollapse: 'collapse' }}>
+<tbody>
+<tr>
+  <td
+    style={{
+      padding: '10px',
+      textAlign: 'left',
+      opacity: 1,
+      color: isDarkMode ? 'white' : 'black',
+    }}
+  >
+    <h2>About bit_lotto</h2>
+    <p>
+      Welcome to bit_lotto, your own crypto lottery! Participate for a chance to win big prizes using your tokens. Join the excitement and be part of the crypto lottery community.
+    </p>
+  </td>
+</tr>
+</tbody>
+</table>
+</div>
+</center><center>
+
+{/* bit_lotto Information Section */}
+<div
+style={{
+backgroundColor: isDarkMode ? 'rgba(0, 0, 0, 0.5)' : 'rgba(255, 255, 255, 0.5)',
+backgroundImage: isDarkMode
+? 'radial-gradient(circle, #ffffff 0.5px, #000000 0.5px)'
+: 'radial-gradient(circle, #000 0.5px, #fff 0.5px)',
+backgroundSize: '20px 20px',
+padding: '20px',
+margin: '20px',
+border: '1px solid ' + (isDarkMode ? 'white' : 'black'),
+borderRadius: '0px',
+width: '80vw'
+
+}}
+>
+
+<table style={{ width: '100%', borderCollapse: 'collapse' }}>
+<tbody>
+<tr>
+  <td
+    style={{
+      padding: '10px',
+      textAlign: 'left',
+      opacity: 1,
+      color: isDarkMode ? 'white' : 'black',
+    }}
+  >
+    <h2>About bit_lotto</h2>
+    <p>
+      Welcome to bit_lotto, your own crypto lottery! Participate for a chance to win big prizes using your tokens. Join the excitement and be part of the crypto lottery community.
+    </p>
+  </td>
+</tr>
+</tbody>
+</table>
+</div>
+</center>
 
 
 
@@ -553,8 +649,10 @@ if(currentpagenumber === 1){
   }}
 />
 
+<center>
 
-<div
+      {/* bit_lotto Information Section */}
+      <div
   style={{
     backgroundColor: isDarkMode ? 'rgba(0, 0, 0, 0.5)' : 'rgba(255, 255, 255, 0.5)',
     backgroundImage: isDarkMode
@@ -565,6 +663,7 @@ if(currentpagenumber === 1){
     margin: '20px',
     border: '1px solid ' + (isDarkMode ? 'white' : 'black'),
     borderRadius: '0px',
+    width: '80vw'
 
   }}
 >
@@ -589,41 +688,46 @@ if(currentpagenumber === 1){
     </tbody>
   </table>
 </div>
-<div
-  style={{
-    backgroundColor: isDarkMode ? 'rgba(0, 0, 0, 0.5)' : 'rgba(255, 255, 255, 0.5)',
-    backgroundImage: isDarkMode
-      ? 'radial-gradient(circle, #ffffff 0.5px, #000000 0.5px)'
-      : 'radial-gradient(circle, #000 0.5px, #fff 0.5px)',
-    backgroundSize: '20px 20px',
-    padding: '20px',
-    margin: '20px',
-    border: '1px solid ' + (isDarkMode ? 'white' : 'black'),
-    borderRadius: '0px',
+</center><center>
 
-  }}
+{/* bit_lotto Information Section */}
+<div
+style={{
+backgroundColor: isDarkMode ? 'rgba(0, 0, 0, 0.5)' : 'rgba(255, 255, 255, 0.5)',
+backgroundImage: isDarkMode
+? 'radial-gradient(circle, #ffffff 0.5px, #000000 0.5px)'
+: 'radial-gradient(circle, #000 0.5px, #fff 0.5px)',
+backgroundSize: '20px 20px',
+padding: '20px',
+margin: '20px',
+border: '1px solid ' + (isDarkMode ? 'white' : 'black'),
+borderRadius: '0px',
+width: '80vw'
+
+}}
 >
-  
-  <table style={{ width: '100%', borderCollapse: 'collapse' }}>
-    <tbody>
-      <tr>
-        <td
-          style={{
-            padding: '10px',
-            textAlign: 'left',
-            opacity: 1,
-            color: isDarkMode ? 'white' : 'black',
-          }}
-        >
-          <h2>About bit_lotto</h2>
-          <p>
-            Welcome to bit_lotto, your own crypto lottery! Participate for a chance to win big prizes using your tokens. Join the excitement and be part of the crypto lottery community.
-          </p>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+
+<table style={{ width: '100%', borderCollapse: 'collapse' }}>
+<tbody>
+<tr>
+  <td
+    style={{
+      padding: '10px',
+      textAlign: 'left',
+      opacity: 1,
+      color: isDarkMode ? 'white' : 'black',
+    }}
+  >
+    <h2>About bit_lotto</h2>
+    <p>
+      Welcome to bit_lotto, your own crypto lottery! Participate for a chance to win big prizes using your tokens. Join the excitement and be part of the crypto lottery community.
+    </p>
+  </td>
+</tr>
+</tbody>
+</table>
 </div>
+</center>
 
 
 <br />
@@ -664,6 +768,8 @@ if(currentpagenumber === 1){
 </footer>
 
     </div>
+    </center>
+
     </html>
     </center>
   );
