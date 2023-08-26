@@ -194,7 +194,7 @@ if(currentpagenumber === 1){
     border: isDarkMode ? '1px solid white' : '1px solid black',
     backgroundColor: isDarkMode ? 'black' : 'white',
     color: isDarkMode ? 'white' : 'black',
-    width:'90vw'
+    width:'100%'
   }}
 >
 <div
@@ -285,7 +285,7 @@ if(currentpagenumber === 1){
 <br />
 <img
               style={{
-                width: '450px',
+                width: '50vw',
               }}
               src={!isDarkMode ? 'https://amplify-amplifya785c969872c4-staging-111600-deployment.s3.amazonaws.com/words_white.png' : 'https://amplify-amplifya785c969872c4-staging-111600-deployment.s3.amazonaws.com/words_black.png'}
               alt="Logo" />
