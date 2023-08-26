@@ -388,6 +388,8 @@ if(currentpagenumber === 1){
     </tbody>
   </table>
   </center>
+  <center>
+
       {/* bit_lotto Information Section */}
       <div
   style={{
@@ -400,6 +402,7 @@ if(currentpagenumber === 1){
     margin: '20px',
     border: '1px solid ' + (isDarkMode ? 'white' : 'black'),
     borderRadius: '0px',
+    width: '80vw'
 
   }}
 >
@@ -424,6 +427,7 @@ if(currentpagenumber === 1){
     </tbody>
   </table>
 </div>
+</center>
 
 
 <div
