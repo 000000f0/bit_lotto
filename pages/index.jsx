@@ -14,6 +14,10 @@ export default function Home() {
   const [message, setMessage] = useState('');
   const [isDarkMode, setIsDarkMode] = useState(false);
 
+
+  const [currentpagenumber, setCurrentPageNumber] = useState(1);
+
+
   const onNameChange = (event) => {
     setName(event.target.value);
   };
@@ -102,11 +106,80 @@ export default function Home() {
     isWalletConnected();
   }, []);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if(currentpagenumber === 1){
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   return (
     <center>
     <html
   style={{
-    backgroundColor: '#000000',
     opacity: 1,
     backgroundImage:
       'radial-gradient(ellipse farthest-corner at 10px 10px, #bcbcbc, #bcbcbc 50%, #000000 50%)',
@@ -119,7 +192,6 @@ export default function Home() {
     border: isDarkMode ? '1px solid white' : '1px solid black',
     backgroundColor: isDarkMode ? 'black' : 'white',
     color: isDarkMode ? 'white' : 'black',
-    width: '90vw'
   }}
 >
 <div
@@ -557,7 +629,7 @@ export default function Home() {
       
       </main>
   
-      <footer style={{ width: '100%', borderTop: `1px solid ${!isDarkMode ? 'black' : 'white'}`, backgroundColor: isDarkMode ? 'black' : 'white', color: isDarkMode ? 'white' : 'black', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+      <footer style={{marginBottom: '30px', width: '100%', borderTop: `1px solid ${!isDarkMode ? 'black' : 'white'}`, backgroundColor: isDarkMode ? 'black' : 'white', color: isDarkMode ? 'white' : 'black', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
     <div style={{ display: 'flex', alignItems: 'center' }}>
       <img
         style={{ width: '20px', padding: '15px' }}
@@ -591,4 +663,39 @@ export default function Home() {
     </html>
     </center>
   );
+      }
+
+
+
+
+
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
 }
